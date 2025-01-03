@@ -1,4 +1,4 @@
-# Attendance System with RFID and Time Tracking
+# Smart RFID Attendance System
 
 ## Project Description
 This project is a fully automated student attendance system using RFID cards, an RTC module, a servo motor and a liquid crystal display (LCD). It reads RFID cards to record student attendance, log sign-in and sign-out times, and push the data into an Excel sheet using PLX-DAQ software for easy access and analysis. The system uses a microcontroller (Arduino) to interface with the RFID reader, RTC, LCD, and servo motor, providing a streamlined solution for managing student attendance.
