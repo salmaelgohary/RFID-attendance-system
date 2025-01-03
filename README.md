@@ -1,15 +1,14 @@
 # Attendance System with RFID and Time Tracking
 
 ## Project Description
-This project is a fully automated student attendance system using RFID cards, an RTC module, a servo motor, and a liquid crystal display (LCD). It reads RFID cards to record student attendance, log sign-in and sign-out times, and push the data into an Excel sheet using PLX-DAQ software for easy access and analysis. The system uses a microcontroller (Arduino) to interface with the RFID reader, RTC, LCD, and servo motor, providing a streamlined solution for managing student attendance.
+This project is a fully automated student attendance system using RFID cards, an RTC module, a servo motor and a liquid crystal display (LCD). It reads RFID cards to record student attendance, log sign-in and sign-out times, and push the data into an Excel sheet using PLX-DAQ software for easy access and analysis. The system uses a microcontroller (Arduino) to interface with the RFID reader, RTC, LCD, and servo motor, providing a streamlined solution for managing student attendance.
 
 ## Hardware Requirements
-- **Arduino UNO (or compatible)**
+- **Arduino UNO**
 - **MFRC522 RFID Reader**
 - **DS3231 RTC Module**
 - **LiquidCrystal I2C Display**
 - **Servo Motor**
-- **LEDs and Buzzer for status indication**
 
 ## Software Requirements
 - **PLX-DAQ**: Software used to transfer data from Arduino to Excel.
@@ -34,7 +33,6 @@ This project is a fully automated student attendance system using RFID cards, an
     - **Sign-in Time**
     - **Sign-out Time**
     - **RFID Card ID**
-- **Status LEDs and Buzzer**: Indicate the success or failure of scanning an RFID card.
 
 ## System Workflow
 1. **Initialization**: The system initializes the RFID reader, RTC module, LCD, and servo motor.
@@ -52,7 +50,7 @@ The Arduino code is responsible for:
 - Pushing data to the serial output, formatted for PLX-DAQ to log into Excel.
 
 ### RFID Card Code
-The RFID code is used to recognize student cards, check if the student is already signed in or out, and trigger the appropriate status indicators (LEDs, buzzer).
+The RFID code is used to recognize student cards and check if the student is already signed in or out.
 
 ### PLX-DAQ Integration
 - PLX-DAQ is configured to listen to the serial output from the Arduino.
