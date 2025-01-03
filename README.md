@@ -72,8 +72,8 @@ The RFID code is used to recognize student cards, check if the student is alread
    - Install the `SPI.h`, `Wire.h`, `MFRC522.h`, `RTClib.h`, `LiquidCrystal_I2C.h`, and `Servo.h` libraries in the Arduino IDE.
   
 3. **Upload the Code**:
-   - Upload the Code: Upload the provided attendance_system_code.ino and rfid_card_code.ino to your Arduino.
-   - Note: The system is pre-configured with two cards. Modify the cards array to add more cards.
+   - Upload the Code: Upload the provided `attendance_system_code.ino` and `rfid_card_code.ino` to your Arduino.
+   - Note: The system is pre-configured with two cards. Modify the `cards` array to add more cards.
 
 ### PLX-DAQ Setup
 1. **Download and Install PLX-DAQ**:
