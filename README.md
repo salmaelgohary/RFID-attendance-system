@@ -104,27 +104,27 @@ The RFID code is used to recognize student cards and check if the student is alr
 
 
 ## Challenges
-1. Servo Malfunction
-  - Initially, the servo motor would not move during sign-in or sign-out. After troubleshooting, I discovered an issue with the wiring. We reconnected the wires properly and reviewed the code to ensure it was controlling the servo correctly.
-2. RFID Data Not Saving to Excel
-  - At first, the RFID data wasn't being transferred to the Excel sheet. I carefully reviewed the code and removed unnecessary sections to simplify it, ensuring that the correct data was being sent to the PLX-DAQ software.
-3. Incorrect Time Display
-  - Initially, the system only displayed the time since the code started rather than the current time. I experimented with multiple libraries but couldn’t get it to work. After further debugging, I fixed the code and successfully displayed the correct time on the Excel sheet.
+1. **Servo Malfunction**
+   - Initially, the servo motor would not move during sign-in or sign-out. After troubleshooting, I discovered an issue with the wiring. We reconnected the wires properly and reviewed the code to ensure it was controlling the servo correctly.
+2. **RFID Data Not Saving to Excel**
+   - At first, the RFID data wasn't being transferred to the Excel sheet. I carefully reviewed the code and removed unnecessary sections to simplify it, ensuring that the correct data was being sent to the PLX-DAQ software.
+3. **Incorrect Time Display**
+   - Initially, the system only displayed the time since the code started rather than the current time. I experimented with multiple libraries but couldn’t get it to work. After further debugging, I fixed the code and successfully displayed the correct time on the Excel sheet.
 
 ## Skills
-1. Embedded Systems Programming
-  - I learned how to connect and program various devices like RFID readers, LCDs, and servo motors using Arduino.
-2. Data Logging
-  - I successfully used PLX-DAQ to send data from Arduino to Excel and ensure accurate attendance tracking.
-3. Circuit Design & Troubleshooting
-  - I designed and tested the circuits connecting all the hardware components, making sure everything worked correctly.
-4. Problem Solving & Debugging
-  - I fixed issues in the system, such as card detection problems and motor malfunctions, by troubleshooting and finding solutions.
+1. **Embedded Systems Programming**
+   - I learned how to connect and program various devices like RFID readers, LCDs, and servo motors using Arduino.
+3. **Data Logging**
+   - I successfully used PLX-DAQ to send data from Arduino to Excel and ensure accurate attendance tracking.
+4. **Circuit Design & Troubleshooting**
+   - I designed and tested the circuits connecting all the hardware components, making sure everything worked correctly.
+4. **Problem Solving & Debugging**
+   - I fixed issues in the system, such as card detection problems and motor malfunctions, by troubleshooting and finding solutions.
 
 ## Future Improvements
-1. Better RFID Reader
-  - A reader with a larger detection range would make the system more user-friendly and improve the overall process.
-2. Portable Power Option
-  - Making the system battery-powered or compatible with a portable charger would make it more convenient and flexible to use anywhere.
-3. Database for Larger Scale Implementation
-  - For larger setups, like in schools or businesses, using a database to store RFID card info would eliminate the need to change the code each time a new card is added, making the system more efficient and practical.
+1. **Better RFID Reader**
+   - A reader with a larger detection range would make the system more user-friendly and improve the overall process.
+2. **Portable Power Option**
+   - Making the system battery-powered or compatible with a portable charger would make it more convenient and flexible to use anywhere.
+3. **Database for Larger Scale Implementation**
+   - For larger setups, like in schools or businesses, using a database to store RFID card info would eliminate the need to change the code each time a new card is added, making the system more efficient and practical.
